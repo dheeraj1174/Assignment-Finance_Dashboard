@@ -2,7 +2,7 @@
 
 FinBoard is a powerful, customizable finance dashboard that allows you to track real-time data from various financial APIs. Build your own monitoring station with stocks, crypto, forex, and economic indicators.
 
-![FinBoard Dashboard](https://github.com/user-content/finboard-dashboard.png)
+<!-- ![FinBoard Dashboard](https://github.com/user-content/finboard-dashboard.png) -->
 
 ## Features
 
