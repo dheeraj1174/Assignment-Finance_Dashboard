@@ -11,6 +11,9 @@ interface HeaderProps {
     onAddWidget: () => void;
 }
 
+console.log("added header");
+
+
 export default function Header({ onAddWidget }: HeaderProps) {
     const dispatch = useAppDispatch();
     const widgets = useAppSelector((state) => state.dashboard.widgets);
