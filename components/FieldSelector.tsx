@@ -54,6 +54,9 @@ export default function FieldSelector({
         );
     };
 
+    console.log("handleupdatelocalobject print",handleUpdateLabel);
+    
+
     return (
         <div className="space-y-4">
             {/* Display Mode Selector */}
