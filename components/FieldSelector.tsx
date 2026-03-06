@@ -15,6 +15,8 @@ interface FieldSelectorProps {
     onDisplayModeChange: (mode: DisplayMode) => void;
 }
 
+
+
 export default function FieldSelector({
     availableFields,
     selectedFields,
@@ -53,7 +55,7 @@ export default function FieldSelector({
             selectedFields.map((f) => (f.path === path ? { ...f, label: newLabel } : f))
         );
     };
-
+console.log("Hello bhai");
     return (
         <div className="space-y-4">
             {/* Display Mode Selector */}
